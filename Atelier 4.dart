@@ -7,7 +7,6 @@ class Couleurs {
   final int b;
 
   Couleurs(this.r, this.g, this.b);
-// Constructeurs nommés
 
   Couleurs.rouge()
       : r = 255,
@@ -22,5 +21,9 @@ class Couleurs {
       : r = 0,
         g = 0,
         b = 255;
+
+void afficherCouleur() {
+    print("R : $r, V : $g, B : $b");
+  }
 
 }
