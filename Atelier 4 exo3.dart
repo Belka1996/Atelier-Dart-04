@@ -15,5 +15,10 @@ class Compte {
       print("Montant invalide, dépot refusé.");
     }
   }
-
+}
+void main(){
+  var Compte1= Compte("CPT-1001");
+  print("Solde initial : ${Compte1.solde}");
+  Compte1.depot(150);
+  print("Solde apres dépot : ${Compte1.solde}");
 }
