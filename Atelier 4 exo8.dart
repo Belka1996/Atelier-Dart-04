@@ -11,6 +11,9 @@ class Livre {
   void afficherInfos() {
     print("Titre : $titre, Auteur : $auteur, Pages : $_pages");
   }
+    static void afficherTotalLivres() {
+    print("Nombre total de livres créés : $totalLivres");
+  }
 }
 void main() {
   var livre1 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry");
@@ -20,4 +23,5 @@ void main() {
   livre1.afficherInfos();
   livre2.afficherInfos();
   livre3.afficherInfos();
+  Livre.afficherTotalLivres();
 }
