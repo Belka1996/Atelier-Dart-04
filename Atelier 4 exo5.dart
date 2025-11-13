@@ -22,3 +22,12 @@ class Rectangle extends Forme {
     return longueur*largeur;
   }
 }
+void main(){
+  var cercle1=Cercle(5);
+  var rectangle1=Rectangle(4, 6);
+  List<Forme> Formes= [cercle1, rectangle1];
+  for (var f in Formes){
+    f.afficherMessage();
+    print("Aire= ${f.calculerAire()}\n");
+  }
+}
