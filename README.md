@@ -118,5 +118,3 @@ Cet atelier m’a permis de mettre en pratique de manière concrète les grands 
 
 En réalisant étape par étape chaque exercice et en versionnant le code avec Git, j’ai renforcé ma capacité à écrire un code mieux organisé, plus modulaire et plus facile à maintenir.
 manipuler des propriétés et méthodes statiques.
-
-En réalisant étape par étape chaque exercice et en versionnant le code avec Git, j’ai renforcé ma capacité à écrire un code mieux organisé, plus modulaire et plus facile à maintenir.
