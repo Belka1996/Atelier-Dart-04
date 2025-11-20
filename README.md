@@ -16,6 +16,7 @@ interfaces (contrats) et méthodes statiques.
 L’atelier était découpé en plusieurs exercices indépendants, chacun ciblant une notion précise.
 
 🧩 Contenu des exercices (vue d’ensemble)
+
 1️⃣ Couleurs avec constructeurs nommés
 
 J’ai créé une classe Couleur avec trois composantes r, g, b et des constructeurs nommés pour générer rapidement des couleurs prédéfinies comme rouge, vert et bleu. Une méthode permet d’afficher les valeurs sous la forme :
